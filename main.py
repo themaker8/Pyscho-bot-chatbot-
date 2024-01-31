@@ -3,7 +3,7 @@ import gradio as gr
 from gradio.themes.base import Base
 #from . import web
 
-openai.api_key = "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"
+openai.api_key = ""
 
 messages = [{
     "role":
