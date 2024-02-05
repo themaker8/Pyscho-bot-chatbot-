@@ -33,9 +33,7 @@ with gr.Blocks(theme=seafoam) as demo:
   inp = gr.Textbox(placeholder="USER:", label='user')
   out = gr.Textbox(placeholder="AI:")
   btn = gr.Button('Submit', variant='primary')
-  cl_btn = gr.Button("Clear")
   btn.click(fn=Chat, inputs=inp, outputs=out)
-  btn.click(lambda x: gr.update(value=""))
 
 if __name__ == "__main__":
   demo.launch(share=True)
