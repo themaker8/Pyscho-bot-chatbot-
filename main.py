@@ -1,7 +1,7 @@
 import openai
 import gradio as gr
 from gradio.themes.base import Base
-#from . import web
+
 
 openai.api_key = ""
 
